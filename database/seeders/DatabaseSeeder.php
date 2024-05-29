@@ -12,6 +12,13 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
+        $this->call([
+            ProductSeeder::class,
+            sliderSeeder::class,
+            three_collette_own_websitesSeeder::class
+        ]);
+
+      
         // \App\Models\User::factory(10)->create();
 
         // \App\Models\User::factory()->create([

@@ -1,0 +1,138 @@
+  /* form */
+ 
+  .form-container label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .custom {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .custom:focus {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    outline: none;
+    border-color: #ffffff;
+  }
+  .form-container input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 25px;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+     
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+   
+
+
+  /* scroll */
+  #scrollButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 123, 255, 0.5); /* Blue color with 50% transparency */
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+  /* Mobile screen size */
+  
+  @media (min-width: 300px){
+    #model{
+      padding: 0.25rem;
+      font-size: 0.25rem;
+    }
+
+    #next_btn{
+      margin-right: 1rem;
+      font-size:1rem;
+    }
+    #prev_btn{
+      margin-left: 1rem;
+      font-size:1rem;
+    }
+
+
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  #model{
+    padding: 0.25rem;
+    font-size: 1.15rem;}
+
+
+
+    #next_btn{
+      margin-right: 1rem;
+      font-size:1.5rem;
+    }
+    #prev_btn{
+      margin-left: 1rem;
+      font-size:1.5rem;
+    }
+
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  #model{
+    padding: 0.25rem;
+    font-size: 1.50rem;}
+
+
+    #next_btn{
+      margin-right: 1rem;
+      font-size:1.7rem;
+    }
+    #prev_btn{
+      margin-left: 1rem;
+      font-size:1.7rem;
+    }
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  #model{
+    font-size: 0.25rem;}
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  #model{
+    padding: 0.25rem;
+    font-size: 1rem;}
+ }
+
+ @media (min-width: 1950px) { 
+  #model{
+    padding: 0.25rem;
+    font-size: 1.90rem;}
+ }
