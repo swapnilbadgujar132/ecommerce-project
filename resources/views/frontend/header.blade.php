@@ -47,8 +47,6 @@
 <body>
 
 
-
-<!-- magchya folder la access nahi krta yeyla pahije -->
 <section class="bg-dark">
     <div class="container">
         <div class="row align-items-center">
@@ -77,7 +75,6 @@
 </section>
 
 
-<!--  -->
 
 <header class="header bg-white">
         <div class="px-lg-3">
@@ -104,14 +101,6 @@
 
               <ul class="navbar-nav ms-auto"> 
               
-                {{-- ?php 
-                $query="select * from product p , wishlist w , login l where p.id = w.product_id and l.id =w.user_id"; 
-                $select=mysqli_query($con,$query);
-                $row= mysqli_num_rows($select);
-                ?           --}}
-                
-                <!-- <li class="nav-item"><a class="nav-link" href="cart.php"> <i class="fas fa-dolly-flatbed me-1 text-gray"></i>Cart<small class="text-gray fw-normal">(2)</small></a></li> -->
-                 
                 @if (session()->has('id'))
                 <li class="nav-item"><a class="nav-link {{ request()->routeIs('wishlist.index') ? 'active' : '' }}" href="{{route('wishlist.index',['user_id'=> session()->get('id')] )}}"> <i class="far fa-heart me-1"></i><small class="text-gray fw-normal">WishList</small></a></li>
                 @else

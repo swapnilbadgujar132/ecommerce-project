@@ -12,9 +12,6 @@
 
 @yield('conditions')
 
-
-
-
 <!-- JavaScript files-->
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="vendor/glightbox/js/glightbox.min.js"></script>
