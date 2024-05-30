@@ -1,7 +1,7 @@
 <b>Project Title:</b>
 <p>Responsive E-commerce Website using Laravel </p>
 
-<h1>About the Project:</h1>
+<h1>About the Project</h1>
 <b>I developed a fully responsive e-commerce website using Laravel, designed to provide users with a seamless and engaging shopping experience. This website aims to showcase products and offers users the option to purchase them directly from external websites like Meesho.</b>
 
 
