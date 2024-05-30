@@ -1,15 +1,15 @@
 <b>Project Title:</b>
 <p>Responsive E-commerce Website using Laravel </p>
 
-<b>About the Project:</b>
-<p>I developed a fully responsive e-commerce website using Laravel, designed to provide users with a seamless and engaging shopping experience. This website aims to showcase products and offers users the option to purchase them directly from external websites like Meesho.</p>
+<h1>About the Project:</h1>
+<b>I developed a fully responsive e-commerce website using Laravel, designed to provide users with a seamless and engaging shopping experience. This website aims to showcase products and offers users the option to purchase them directly from external websites like Meesho.</b>
 
 
 
 <b>Here are some key aspects of the project:</b>
 <p>Technologies Used: Laravel, HTML5, CSS3, JavaScript, Bootstrap</p>
 
-<h2>Features</h2>
+<h1>Features</h1>
 
 <b>User Authentication:</b>
 <p> Secure login and registration system for users and new customers.</p>
