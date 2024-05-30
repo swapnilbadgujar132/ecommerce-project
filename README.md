@@ -9,8 +9,7 @@
 <b>Here are some key aspects of the project:</b>
 <p>Technologies Used: Laravel, HTML5, CSS3, JavaScript, Bootstrap</p>
 
-<b>Features:</b>
-<br><br><br>
+<h2>Features</h2>
 
 <b>User Authentication:</b>
 <p> Secure login and registration system for users and new customers.</p>
